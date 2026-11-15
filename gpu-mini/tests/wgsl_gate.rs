@@ -45,7 +45,6 @@ const SHADERS: &[ShaderCase] = &[
     ShaderCase { name: "scene3d/points", source: concat!(include_str!("../../scene3d/src/frame_uniform.wgsl"), include_str!("../../scene3d/src/shader_points.wgsl")) },
     ShaderCase { name: "scene3d/sprite", source: concat!(include_str!("../../scene3d/src/frame_uniform.wgsl"), include_str!("../../scene3d/src/shader_sprite.wgsl")) },
     ShaderCase { name: "scene3d/standard", source: concat!(include_str!("../../scene3d/src/frame_uniform.wgsl"), include_str!("../../scene3d/src/shader_standard.wgsl")) },
-    ShaderCase { name: "skeleton", source: include_str!("../../skeleton/src/skeleton.wgsl") },
     ShaderCase { name: "switch-slider", source: include_str!("../../switch-slider/src/switch_slider.wgsl") },
     ShaderCase { name: "text-draw", source: include_str!("../../text-draw/src/text_draw.wgsl") },
     ShaderCase { name: "theme-slider", source: include_str!("../../theme-slider/src/theme_slider.wgsl") },
